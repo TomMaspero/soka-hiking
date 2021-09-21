@@ -1,0 +1,44 @@
+/* Colors */
+$color1: #582F0E;
+$color2: #7F4F24;
+$color3: #936639;
+$color4: #A68A64;
+$color5: #B6AD90;
+$color6: #C2C5AA;
+$color7: #A4AC86;
+$color8: #656D4A;
+$color9: #414833;
+$color10: #333D29;
+$color11: #897A5F;
+$color12: lightskyblue;
+$color13: skyblue;
+$color14: dodgerblue;
+$color15: deepskyblue;
+$color16: #d4f2ff;
+$white: white;
+$black: black;
+$gradient1: linear-gradient(to right, rgba(166, 138, 100, 0.85), rgba(164, 172, 134,0.85));
+$gradient2: radial-gradient($black, darken($color14, 30%));
+$background_color1: rgba(51, 61, 41, 0.4);
+
+/* Fonts */
+$font_title: 'Gabriola', serif;
+$font_text: 'Rubik', sans-serif;
+$font_size_title: 1.75rem;
+$font_size_text: 16px;
+$font_size_text_large: 22px;
+$font_size_text_small: 14px;
+$font_size_icons: 20px;
+
+/* Misc */
+$transition_logo: all 0.75s ease-out;
+$transition_icon: all 0.5s ease;
+$transition_icon2: all 0.5s linear;
+
+$border_header_button: 2px solid #582F0E;
+$border_titles: 2px solid rgba(88, 47, 14,0.8);
+$border_formulario: 2px solid $color1;
+
+$text_center: center;
+
+$margin-title: 10px 20px 0 20px;

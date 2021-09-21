@@ -1,0 +1,175 @@
+body{
+    background-color: $color16;
+    line-height: 1.5;
+}
+
+.nosotros{
+    padding-top: 110px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    &__top{
+        display: flex;
+        width: 100%;
+        padding: 20px 0 0px 45px; 
+        justify-content: flex;
+        &--title{
+            font-size: 3rem;
+            font-family: $font_text;
+            color: darken($color16, 15%);
+            margin-bottom: 0;
+        }
+    }
+    &__center{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+}
+
+.circulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    &__top{
+        &--img{
+            border-radius: 50%;
+            width: 250px;
+        }
+    }
+    &__bottom{
+        &--nombre{
+            text-align: center;
+            font-family: $font_text;
+            font-size: 16px;
+            margin: 15px 0 0 0;
+            color: $color16;
+        }
+        &--texto{
+            text-align: center;
+            font-family: $font_text;
+            font-size: 14px;
+            font-style: italic;
+            color: darken($color16, 15%);
+            margin: 0;
+        }
+    }
+}
+
+.faq{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    &__top{
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 20px 0 0px 45px; 
+        &--title{
+            font-size: 3.0rem;
+            font-family: $font_text;
+            color: black;
+            margin-bottom: 0;
+        }
+    }
+    &__accordion{
+        padding-top: 25px;
+        width: 60%;
+        margin: 10px;
+        &__item{
+            border: none;
+            &--title{
+                // background: linear-gradient(to left, $black, darken($color14, 30%));   
+                background-color: darken($color14, 30%);
+                font-size: 80%;
+                text-decoration: underline;
+                font-family: $font_title;
+                color: $color16;
+                &:not(.collapsed){
+                    background-color: $color14;
+                    // background: linear-gradient(to left, darken($color14, 30%), darken($color16, 30%));
+                    color: $color16;
+                    box-shadow: none;
+                }
+                &:focus{
+                    box-shadow: none;
+                }
+            }
+            &__container{
+                background-color: $color6;
+                &__body{
+                    background-color: $color16;
+                    &--text{
+                        font-size: $font_size_text;
+                        font-family: $font_text;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.contacto{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    &__top{
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 20px 0 0px 45px; 
+        &--title{
+            font-size: 3.0rem;
+            font-family: $font_text;
+            color: darken($color16, 15%);
+            margin-bottom: 0;
+        }
+    }
+    &__bottom{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.form{
+    padding: 25px;
+    margin-top: 25px;
+    background-color: #d4f2ff;
+    border-radius: 5px;
+    width: 35%;
+    .form-outline{
+        background-color: white;
+        border-radius: 5px;
+        .form-control{
+            
+        }
+    }
+}
+.form-outline .form-control~.form-notch div{
+    border: none;
+}
+.btn-primary{
+    background-color: $color14;
+}
+
+.form-outline .form-control:focus~.form-label {
+    color: darken(dodgerblue, 15%);
+    text-shadow: 2px 2px 6px #96a4ff;
+}

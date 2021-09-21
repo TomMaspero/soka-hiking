@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- ICONOS -->
+    <script src="https://kit.fontawesome.com/bc14e7f878.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+    <title>SOKA - Hiking Argentina</title>
+</head>
+<body>
+
+<!-- Inicio del header -->
+<header class="header">
+  <div class="header__left">
+    <div class="header__left__logo">
+      <a href="index.html#inicio"><img class="header__left__logo--img" src="images/logo.png" alt="Logo Hiking Argentina"></a>
+    </div>
+  </div>
+  <div class="header__right">
+    <div class="header__right__top">
+      <div class="header__right__top__left">
+        <a href="#inicio" class="header__right__top__left--title"><h2 class="titulo">SOKA - Hiking Argentina</h2></a>
+      </div>
+      <div class="header__right__top__right">
+        <ul class="header-top-list">
+          <li class="header-top-list__li"><a class="header-top-list__li--link" href="pages/contacto.html#nosotros">Nosotros</a></li>
+          <li class="header-top-list__li"><a class="header-top-list__li--link" href="pages/contacto.html#faq">FAQ</a></li>
+          <li class="header-top-list__li"><a class="header-top-list__li--link" href="pages/contacto.html#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="header__right__bottom">
+      <ul class="header-bottom-list">
+        <li class="header-bottom-list__li"><a href="#destinos" class="header-bottom-list__li--link">Destinos</a></li>
+        <li class="header-bottom-list__li"><a href="#aventuras" class="header-bottom-list__li--link">Aventuras</a></li>
+        <li class="header-bottom-list__li"><a href="#cursos" class="header-bottom-list__li--link">Cursos</a></li>
+        <li class="header-bottom-list__li"><a href="#experiencias" class="header-bottom-list__li--link">Experiencias</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+
+<!-- Fin del Header -->
+
+<main id="inicio" class="main-index">
+<div class="main-index__top"><h1 class="main-index__top--title">¡Armá tu aventura!</h1></div>
+<div id="destinos" class="index-bottom">
+  <a class="index-bottom__link" href="#destinos"><i class="index-bottom__link--button fas fa-angle-down"></i></a>
+</div>
+</main>
+
+<section class="destinos">
+<div class="destinos__top"><h2 class="destinos__top--title">Conocé nuestros destinos</h2></div>
+<div class="destinos__bottom">
+  <div class="destinos__bottom__par">
+    <div class="card-container">
+      <div class="card" style="width: 18rem;">
+        <img src="images/card-lanin.jpeg" class="card--img card-img-top" alt="Volcán Lanín">
+        <div class="card-body">
+          <h5 class="card-title">Volcán Lanín</h5>
+          <p class="card-text">Ubicado en Neuquén, en el límite entre Chile y Argentina. Su ascenso es relativamente sencillo.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card-container">
+      <div class="card" style="width: 18rem;">
+        <img src="images/card-sierradelaventana.jpeg" class="card--img card-img-top" alt="Sierra de la Ventana">
+        <div class="card-body">
+          <h5 class="card-title">Sierra de la Ventana</h5>
+          <p class="card-text">Ubicada en la Provincia de Buenos Aires es muy fácil de ascender. ¡Recomendable para comenzar!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="destinos__bottom__par">
+    <div class="card-container">
+      <div class="card" style="width: 18rem;">
+        <img src="images/card-fitzroy.jpeg" class="card--img card-img-top" alt="Monte Fitz Roy">
+        <div class="card-body">
+          <h5 class="card-title">Monte Fitz Roy</h5>
+          <p class="card-text">Ubicado en Santa Cruz, cerca de la villa de El Chaltén, presenta uno de los ascensos más dificultosos.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card-container">
+      <div class="card" style="width: 18rem;">
+        <img src="images/card-aconcagua.jpeg" class="card--img card-img-top" alt="Cerro Aconcagua">
+        <div class="card-body">
+          <h5 class="card-title">Cerro Aconcagua</h5>
+          <p class="card-text">Ubicado en Mendoza, es la cima más elevada de América ¡el desafío último de muchos alpinistas!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="hidden2" id="aventuras"></div>
+</section>
+
+<section class="aventuras">
+  <img class="aventuras--title" src="images/banner1.jpeg" alt="Planeá tu Aventura">
+  <div class="aventuras__container">
+    <div class="aventuras__container__item">
+      <h3 class="aventuras__container__item--title">Senderismo</h3>
+      <p class="aventuras__container__item--text">
+        El senderismo  es una actividad deportiva no competitiva que consiste en caminar siguiendo un itinerario determinado. Su objetivo es acercar a las personas al medio natural y al conocimiento de la zona a través del patrimonio y los elementos etnográficos y culturales tradicionales. ¡Ideal para aquellos quienes quieren reconectarse con la naturaleza de forma tranquila!
+      </p>
+      <ul class="aventuras-list">
+        <li class="aventuras-list__li"><i class="fas fa-map-marker-alt"></i>Sierra de la Ventana, Sierra de los Difuntos, Sierra La Brava</li>
+        <li class="aventuras-list__li"><i class="fas fa-tags"></i>$1000 por persona</li>
+        <li class="aventuras-list__li"><i class="fas fa-exclamation"></i>Dificultad: tranquilo</li>
+        <li class="aventuras-list__li"><i class="fas fa-user-alt"></i>Edad: cualquiera</li>
+      </ul>
+    </div>
+    <div class="aventuras__container__img"><img src="images/senderismo.jpeg" alt="Foto de Senderistas" class="aventuras__container__img--image"></div>
+  </div>
+  <div class="aventuras__container aventuras__container--reverse">
+    <div class="aventuras__container__img"><img src="images/alpinismo.jpeg" alt="Foto de Alpinistas" class="aventuras__container__img--image"></div>
+    <div class="aventuras__container__item">
+      <h3 class="aventuras__container__item--title">Alpinismo</h3>
+      <p class="aventuras__container__item--text">
+        El alpinismo consiste en conseguir llegar a la cima de una determinada montaña, como un reto a la naturaleza. Se recomienda estar bien entrenado, el alpinismo es una actividad peligrosa aun cuando se toman todos los recaudos posibles. Quienes lo practican, lo consideran como un verdadero estilo de vida y una forma de experimentar e interpretar el mundo que los rodea.
+      </p>
+      <ul class="aventuras-list">
+        <li class="aventuras-list__li"><i class="fas fa-map-marker-alt"></i>Volcán Lanín, Monte Fitz Roy, Cerro Aconcagua</li>
+        <li class="aventuras-list__li"><i class="fas fa-tags"></i>$6500 por persona</li>
+        <li class="aventuras-list__li"><i class="fas fa-exclamation"></i>Dificultad: medio a difícil según la montaña</li>
+        <li class="aventuras-list__li"><i class="fas fa-user-alt"></i>Edad: mayores de 18</li>
+      </ul>
+    </div>
+  </div>
+  <div class="aventuras__container">
+    <div class="aventuras__container__item">
+      <h3 class="aventuras__container__item--title">Ciclismo</h3>
+      <p class="aventuras__container__item--text">
+        El ciclismo de montaña, considerado un deporte de riesgo, es un ciclismo de competición realizado en circuitos naturales generalmente a través de bosques por caminos angostos con cuestas empinadas y descensos muy rápidos. Es altamente recomendado el uso de elementos de seguridad como casco especial, guantes de dedos largos, pedales clip y zapatillas especiales para este tipo de pedal. Protectores de torso, codos y rodillas.
+      </p>
+      <ul class="aventuras-list">
+        <li class="aventuras-list__li"><i class="fas fa-map-marker-alt"></i>Sierra de la Ventana, Cerro Tres Picos</li>
+        <li class="aventuras-list__li"><i class="fas fa-tags"></i>$2500 por persona</li>
+        <li class="aventuras-list__li"><i class="fas fa-exclamation"></i>Dificultad: desde sencillo a difícil según la pista</li>
+        <li class="aventuras-list__li"><i class="fas fa-user-alt"></i>Edad: mayores de 14</li>
+      </ul>
+    </div>
+    <div class="aventuras__container__img"><img src="images/ciclismo.jpeg" alt="Mountain Biking" class="aventuras__container__img--image"></div>
+  </div>
+  <div class="aventuras__container aventuras__container--reverse">
+    <div class="aventuras__container__img"><img src="images/kayakismo.jpeg" alt="Foto de kayakismo" class="aventuras__container__img--image"></div>
+    <div class="aventuras__container__item">
+      <h3 class="aventuras__container__item--title">Kayaking</h3>
+      <p class="aventuras__container__item--text">
+        El kayak es una variedad de piragua de uno a cuatro tripulantes cuyo uso es fundamentalmente deportivo. Dadas sus características pueden usarse kayaks en aguas tranquilas, aguas bravas y en el mar.
+      </p>
+      <ul class="aventuras-list">
+        <li class="aventuras-list__li"><i class="fas fa-map-marker-alt"></i>Mar del Plata, Laguna de los Padres</li>
+        <li class="aventuras-list__li"><i class="fas fa-tags"></i>$1500 por persona</li>
+        <li class="aventuras-list__li"><i class="fas fa-exclamation"></i>Dificultad: puede ser tranquilo o peligroso según el día</li>
+        <li class="aventuras-list__li"><i class="fas fa-user-alt"></i>Edad: mayores de 16</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="hidden1" id="cursos"></div>
+</section>
+
+
+
+<section class="cursos">
+  <div class="cursos__top">
+    <h2 class="cursos__top--title">CURSOS</h2>
+  </div>
+  <div class="cursos__bottom">
+    <div class="cursos__bottom__circle">
+      <i class="cursos__bottom__circle--icon far fa-compass"></i>
+      <p class="cursos__bottom__circle--text">Orientación</p>
+    </div>
+    <div class="cursos__bottom__circle">
+      <i class="cursos__bottom__circle--icon fas fa-hiking"></i>
+      <p class="cursos__bottom__circle--text">Equipamiento</p>
+    </div>
+    <div class="cursos__bottom__circle">
+      <i class="cursos__bottom__circle--icon fas fa-campground"></i>
+      <p class="cursos__bottom__circle--text">Supervivencia</p>
+    </div>
+    <div class="cursos__bottom__circle">
+      <i class="cursos__bottom__circle--icon fas fa-medkit"></i>
+      <p class="cursos__bottom__circle--text">Auxilios</p>
+    </div>
+  </div>
+  <div id="experiencias" class="hidden3"></div>
+</section>
+
+<section class="experiencias">
+  <div class="experiencias__top">
+    <h3 class="experiencias__top--title">Miles de aventureros nos recomiendan</h3>
+  </div>
+  <div class="experiencias__bottom">
+    <div class="review">
+      <div class="review__top">
+        <p class="review__top--texto">
+          "Excelente servicio, los guías muy experimentados y muy amables. Nos acompañaron a lo largo de todo el entrenamiento. ¡Y cuando por fin bajamos del Lanín los chicos de la agencia nos esperaban con un excelente asado!"
+        </p>
+      </div>
+      <div class="review__bottom">
+        <img class="review__bottom--photo" src="images/profile2.jpeg" alt="Fotografía de cliente">
+        <p class="review__bottom--name">Sergio Terranova</p>
+      </div>
+    </div>
+    <div class="review">
+      <div class="review__top">
+        <p class="review__top--texto">
+          "Me uní a las salidas de Soka hace ya un par de años, hemos ido por casi todas las rutas de la provincia de Buenos Aires y muchas otras en toda la Patagonia. Siempre nos llevan por caminos nuevos e interesantes. ¡Los recomiendo!"
+        </p>
+      </div>
+      <div class="review__bottom">
+        <img class="review__bottom--photo" src="images/profile3.jpeg" alt="Fotografía de cliente">
+        <p class="review__bottom--name">Mariana Crespo</p>
+      </div>
+    </div>
+    <div class="review">
+      <div class="review__top">
+        <p class="review__top--texto">
+          "He estado aprendiendo con Soka y debo decir que los guías y profesores son los mejores que he encontrado. Siempre buena onda, con mucha paciencia y ganas de enseñar. Estoy muy agradecido de poder estar viajando con ellos."
+        </p>
+      </div>
+      <div class="review__bottom">
+        <img class="review__bottom--photo" src="images/profile1.jpeg" alt="Fotografía de cliente">
+        <p class="review__bottom--name">Lorenzo Rodón</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Inicio del footer -->
+<footer class="footer">
+  <div class="footer__top">
+      <ul class="footer__top__left">
+        <li><a class="footer__top__left__link" href="#inicio">Inicio</a></li>
+        <li><a class="footer__top__left__link" href="pages/contacto.html#nosotros">Nosotros</a></li>
+        <li><a class="footer__top__left__link" href="pages/contacto.html#faq">FAQ</a></li>
+        <li><a class="footer__top__left__link" href="pages/contacto.html#contacto">Contacto</a></li>
+    </ul>
+    <div class="footer__top__right">
+        <a class="footer__top__right__icon" href="https://www.linkedin.com"><i class="fab fa-linkedin footer__top__right__icon--media"></i></a>
+        <a class="footer__top__right__icon" href="https://www.gmail.com"><i class="far fa-envelope footer__top__right__icon--media"></i></a>
+        <a class="footer__top__right__icon" href="https://www.instagram.com"><i class="fab fa-instagram footer__top__right__icon--media"></i></a>
+    </div>        
+  </div>
+  <div class="footer__bottom">
+    <p class="footer__bottom--text">Desarrollado y diseñado por: Tomás Diego Máspero</p>
+  </div>
+
+</footer>
+<!-- Fin del Footer -->
+
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+</body>
+</html>

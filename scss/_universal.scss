@@ -1,0 +1,249 @@
+@import 'variables';
+@import url(../fonts/Gabriola.ttf);
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html {font-size: $font_size_text;}
+
+body {
+    background-color: black;
+}
+
+.header{
+    width: 100%;
+    height: 115px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 50;
+    &__left{
+        width: fit-content;
+        display: flex;
+        background: radial-gradient($color15 50%, $color14);
+        padding: 7px;
+        &__logo{
+            width: 100px;
+            border-radius: 100%;
+            &--img{
+                width: 100%;
+            }
+        }
+        @media only screen and (max-device-width: 879px){
+            display: none;
+        }
+    }
+    &__right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        &__top{
+            width: 100%;
+            height: 40%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: $black;
+            align-items: center;
+            &__left{
+                width: 50%;
+                &--title{
+                    color: $color13;
+                    text-decoration: none;
+                    font-family: $font_title;
+                    font-size: 2.5rem;          
+                    .titulo{
+                        margin: 0;
+                        margin-left: 15px;
+                        @media only screen and (max-device-width: 879px){
+                            font-size: 2.00rem;
+                        }
+                        @media only screen and (max-device-width: 779px){
+                            font-size: 1.75rem;
+                        }
+                        @media only screen and (max-device-width: 679px){
+                            font-size: 1.5rem;
+                        }
+                        @media only screen and (max-device-width: 589px){
+                            font-size: 1.25rem;
+                        }
+                        @media only screen and (max-device-width: 499px){
+                            font-size: 1.00rem;
+                        }
+                        @media only screen and (max-device-width: 390px){
+                            font-size: 0.75rem;
+                        }
+                    }
+
+                    &:hover{
+                        color: $color13;
+                    }
+                }
+                @media only screen and (max-device-width: 879px){
+                    width: 36%;
+                }
+            }
+            &__right{
+                width: 65%;
+                justify-content: flex-end;
+                height: 100%;
+                @media only screen and (max-device-width: 679px){
+                    width: 65%;
+                }
+            }
+        }
+        &__bottom{
+            width: 100%;
+            height: 60%;
+            display: flex;
+        }
+    }
+}
+
+.header-top-list{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    list-style: none;
+    padding: 0;
+    margin-left: 10%;
+    margin-left: 10%;
+    &__li{
+        @include estiloMenuLi(30%, $black);
+        &:hover{
+            background-color: lighten($black, 50%);
+            .header-top-list__li--link{
+                color: lighten($color15, 20%);
+                @media only screen and (min-device-width: 375px){
+                    transform: scale(1.25);
+                }
+            }
+        }
+        &--link{
+            @include estiloMenuLink($font_text, $font_size_text, white);
+            @media only screen and (max-device-width: 469px){
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.header-bottom-list{
+    @include estiloMenuList(100%, space-around);
+    background-color: white;
+    &__li{
+        @include estiloMenuLi(25%, $white);
+        &:hover{
+            background-color: darken(white,25%);
+            .header-bottom-list__li--link{
+                color: $color14;
+                @media only screen and (min-device-width: 619px){
+                    transform: scale(1.25);
+                }
+            }
+        }
+        &--link{
+            @include estiloMenuLink($font_text, $font_size_text_large, $black);
+            @media only screen and (max-device-width: 469px){
+                font-size: 16px;
+            }
+            @media only screen and (max-device-width: 320px){
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: $gradient2;    
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    &__top{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        &__left{
+            list-style: none;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 10px 10px 5px 10px;
+            &__link {
+                font-size: 18px;
+                color: $color13;
+                text-decoration: none;
+                transition: $transition_icon;
+                font-family: $font_text;
+                padding: 0 7px;
+                &:hover{
+                    color: $color16;
+                }
+                @media only screen and (max-device-width: 375px){
+                    font-size: 14px;
+                    padding: 0px 5px;
+                }
+            }
+            @media only screen and (max-device-width: 375px){
+                padding: 10px 0px 5px 0px;
+            }
+        }
+        &__right{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            position: absolute;
+            right: 0;
+            margin: 0 5px 0 0;
+            &__icon{
+                color: $color13;
+                &--media {
+                    padding: 10px 7px;
+                    font-size: 25px;
+                    transition: $transition_icon2;
+                    &:hover {
+                        color: $color16;
+                        transform: rotate3d(0,1,0,360deg) scale(1.25);
+                    }
+                    @media only screen and (max-device-width: 375px){
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    &__bottom{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        &--text{
+            padding: 0 25px;
+            font-size: 14px;
+            font-family: $font_text;
+            color: $color16;
+            font-style: italic;
+            margin: 0 0 10px 0;
+            @media only screen and (max-device-width: 375px){
+                font-size: 12px;
+                padding: 0 15px;
+            }
+        }
+    }
+}
+
+.separador{
+    margin: 0;
+    width: 100%;
+    height: 15px;
+    background-color: $background_color1;
+}
