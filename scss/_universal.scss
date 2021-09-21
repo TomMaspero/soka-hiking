@@ -188,12 +188,12 @@ body {
                 &:hover{
                     color: $color16;
                 }
-                @media only screen and (max-device-width: 375px){
+                @media only screen and (max-device-width: 400px){
                     font-size: 14px;
                     padding: 0px 5px;
                 }
             }
-            @media only screen and (max-device-width: 375px){
+            @media only screen and (max-device-width: 400px){
                 padding: 10px 0px 5px 0px;
             }
         }
@@ -215,7 +215,7 @@ body {
                         color: $color16;
                         transform: rotate3d(0,1,0,360deg) scale(1.25);
                     }
-                    @media only screen and (max-device-width: 375px){
+                    @media only screen and (max-device-width: 400px){
                         font-size: 20px;
                     }
                 }
