@@ -810,7 +810,7 @@ body {
 
 .nosotros {
   padding-top: 110px;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -889,7 +889,7 @@ body {
 
 .faq {
   padding-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
   display: flex;
   justify-content: center;
   width: 100%;
