@@ -929,8 +929,8 @@ body {
 .faq__accordion__item--title {
   background-color: #004384;
   font-size: 80%;
-  text-decoration: underline;
-  font-family: "Gabriola", serif;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
   color: #d4f2ff;
 }
 .faq__accordion__item--title:not(.collapsed) {
@@ -951,6 +951,7 @@ body {
   font-size: 16px;
   font-family: "Rubik", sans-serif;
   color: black;
+  text-align: justify;
 }
 
 .contacto {

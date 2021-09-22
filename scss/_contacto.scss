@@ -112,8 +112,8 @@ body{
                 // background: linear-gradient(to left, $black, darken($color14, 30%));   
                 background-color: darken($color14, 30%);
                 font-size: 80%;
-                text-decoration: underline;
-                font-family: $font_title;
+                text-decoration: none;
+                font-family: $font_text;
                 color: $color16;
                 &:not(.collapsed){
                     background-color: $color14;
@@ -133,6 +133,7 @@ body{
                         font-size: $font_size_text;
                         font-family: $font_text;
                         color: black;
+                        text-align: justify;
                     }
                 }
             }
