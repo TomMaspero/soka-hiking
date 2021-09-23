@@ -489,8 +489,12 @@ body {
   display: flex;
   flex-direction: column;
   width: 40%;
+  justify-content: center;
 }
 .aventuras__container__item--title {
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
   width: 40vw;
   height: 60px;
   margin: 10px 15px 0px 15px;
@@ -505,14 +509,14 @@ body {
 }
 @media only screen and (min-device-width: 380px) and (max-device-width: 679px) {
   .aventuras__container__item--title {
-    width: 70vw;
-    font-size: 2rem;
+    width: 75%;
+    font-size: 2.5rem;
   }
 }
 @media only screen and (max-device-width: 379px) {
   .aventuras__container__item--title {
-    width: 80vw;
-    font-size: 1.5rem;
+    width: 75%;
+    font-size: 2rem;
   }
 }
 .aventuras__container__item--text {
