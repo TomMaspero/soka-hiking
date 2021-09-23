@@ -500,7 +500,7 @@ body {
   background-repeat: no-repeat;
   background-position: right;
   color: black;
-  font-size: 3.25rem;
+  font-size: 3.25em;
   font-family: "Gabriola", serif;
 }
 @media only screen and (min-device-width: 380px) and (max-device-width: 679px) {
