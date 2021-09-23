@@ -380,7 +380,7 @@ body {
 }
 @media only screen and (max-device-width: 425px) {
   .index-bottom__link {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
   }
 }
 
