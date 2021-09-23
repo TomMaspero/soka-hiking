@@ -36,6 +36,9 @@ body{
             align-items: center;
         }
     }
+    @media only screen and (max-device-width: 769px){
+        padding-bottom: 80px;
+    }
 }
 
 .circulo{

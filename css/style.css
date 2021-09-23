@@ -862,6 +862,11 @@ body {
     align-items: center;
   }
 }
+@media only screen and (max-device-width: 769px) {
+  .nosotros {
+    padding-bottom: 80px;
+  }
+}
 
 .circulo {
   display: flex;
