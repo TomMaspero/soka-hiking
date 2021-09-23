@@ -346,7 +346,7 @@ body {
   background-repeat: no-repeat;
 }
 .main-index__top {
-  height: 60vh;
+  height: 60%;
 }
 .main-index__top--title {
   font-size: 3rem;
@@ -380,7 +380,7 @@ body {
 }
 @media only screen and (max-device-width: 425px) {
   .index-bottom__link {
-    padding-bottom: 80px;
+    margin-bottom: 80px;
   }
 }
 
