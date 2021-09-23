@@ -159,13 +159,15 @@
                 background-repeat: no-repeat;
                 background-position: right;
                 color: black;
-                font-size: 3.25em;
-                font-family: "Gabriola", serif;
+                font-size: 3.25rem;
+                font-family: $font_title;
                 @media only screen  and (min-device-width: 380px) and (max-device-width: 679px){
                     width: 70vw;
+                    font-size: 2rem;
                 }
                 @media only screen and (max-device-width: 379px){
                     width: 80vw;
+                    font-size: 1.5rem;
                 }
             }
             &--text{
