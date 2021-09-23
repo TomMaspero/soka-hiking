@@ -58,19 +58,19 @@ body {
                     .titulo{
                         margin: 0;
                         margin-left: 15px;
-                        @media only screen and (max-device-width: 879px){
+                        @media only screen and (min-device-width: 780px) and (max-device-width: 879px){
                             font-size: 2.00rem;
                         }
-                        @media only screen and (max-device-width: 779px){
+                        @media only screen and (min-device-width: 680px) and (max-device-width: 779px){
                             font-size: 1.75rem;
                         }
-                        @media only screen and (max-device-width: 679px){
+                        @media only screen  and (min-device-width: 590px) and (max-device-width: 679px){
                             font-size: 1.5rem;
                         }
-                        @media only screen and (max-device-width: 589px){
+                        @media only screen  and (min-device-width: 500px) and (max-device-width: 589px){
                             font-size: 1.25rem;
                         }
-                        @media only screen and (max-device-width: 499px){
+                        @media only screen  and (min-device-width: 391px) and (max-device-width: 499px){
                             font-size: 1.00rem;
                         }
                         @media only screen and (max-device-width: 390px){
@@ -148,7 +148,7 @@ body {
         }
         &--link{
             @include estiloMenuLink($font_text, $font_size_text_large, $black);
-            @media only screen and (max-device-width: 469px){
+            @media only screen and (min-device-width: 321px) and (max-device-width: 469px){
                 font-size: 16px;
             }
             @media only screen and (max-device-width: 320px){

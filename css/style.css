@@ -74,27 +74,27 @@ body {
   margin: 0;
   margin-left: 15px;
 }
-@media only screen and (max-device-width: 879px) {
+@media only screen and (min-device-width: 780px) and (max-device-width: 879px) {
   .header__right__top__left--title .titulo {
     font-size: 2rem;
   }
 }
-@media only screen and (max-device-width: 779px) {
+@media only screen and (min-device-width: 680px) and (max-device-width: 779px) {
   .header__right__top__left--title .titulo {
     font-size: 1.75rem;
   }
 }
-@media only screen and (max-device-width: 679px) {
+@media only screen and (min-device-width: 590px) and (max-device-width: 679px) {
   .header__right__top__left--title .titulo {
     font-size: 1.5rem;
   }
 }
-@media only screen and (max-device-width: 589px) {
+@media only screen and (min-device-width: 500px) and (max-device-width: 589px) {
   .header__right__top__left--title .titulo {
     font-size: 1.25rem;
   }
 }
-@media only screen and (max-device-width: 499px) {
+@media only screen and (min-device-width: 391px) and (max-device-width: 499px) {
   .header__right__top__left--title .titulo {
     font-size: 1rem;
   }
@@ -222,7 +222,7 @@ body {
   text-decoration: none;
   color: black;
 }
-@media only screen and (max-device-width: 469px) {
+@media only screen and (min-device-width: 321px) and (max-device-width: 469px) {
   .header-bottom-list__li--link {
     font-size: 16px;
   }
@@ -497,7 +497,7 @@ body {
   font-size: 3.25rem;
   font-family: "Gabriola", serif;
 }
-@media only screen and (max-device-width: 679px) {
+@media only screen and (min-device-width: 380px) and (max-device-width: 679px) {
   .aventuras__container__item--title {
     width: 70vw;
   }
@@ -624,12 +624,12 @@ body {
   text-decoration: none;
   padding-top: 3px;
 }
-@media only screen and (max-device-width: 1039px) {
+@media only screen and (min-device-width: 520px) and (max-device-width: 1039px) {
   .cursos__bottom__circle--icon {
     font-size: 6rem;
   }
 }
-@media only screen and (max-device-width: 519px) {
+@media only screen and (min-device-width: 370px) and (max-device-width: 519px) {
   .cursos__bottom__circle--icon {
     font-size: 5rem;
   }
@@ -643,12 +643,12 @@ body {
   font-size: 2rem;
   font-family: "Rubik", sans-serif;
 }
-@media only screen and (max-device-width: 1039px) {
+@media only screen and (min-device-width: 520px) and (max-device-width: 1039px) {
   .cursos__bottom__circle--text {
     font-size: 1.5rem;
   }
 }
-@media only screen and (max-device-width: 519px) {
+@media only screen and (min-device-width: 370px) and (max-device-width: 519px) {
   .cursos__bottom__circle--text {
     font-size: 1.25rem;
   }
@@ -658,13 +658,13 @@ body {
     font-size: 1rem;
   }
 }
-@media only screen and (max-device-width: 1039px) {
+@media only screen and (min-device-width: 520px) and (max-device-width: 1039px) {
   .cursos__bottom__circle {
     width: 200px;
     height: 200px;
   }
 }
-@media only screen and (max-device-width: 519px) {
+@media only screen and (min-device-width: 370px) and (max-device-width: 519px) {
   .cursos__bottom__circle {
     width: 175px;
     height: 175px;
@@ -728,7 +728,7 @@ body {
   font-family: "Rubik", sans-serif;
   color: black;
 }
-@media only screen and (max-device-width: 569px) {
+@media only screen and (min-device-width: 470px) and (max-device-width: 569px) {
   .review__top--texto {
     font-size: 14px;
   }
@@ -912,7 +912,7 @@ body {
   width: 60%;
   margin: 10px;
 }
-@media only screen and (max-device-width: 768px) {
+@media only screen and (min-device-width: 321px) and (max-device-width: 768px) {
   .faq__accordion {
     width: 75%;
   }
@@ -988,12 +988,12 @@ body {
   border-radius: 5px;
   width: 35%;
 }
-@media only screen and (max-device-width: 992px) {
+@media only screen and (min-device-width: 769px) and (max-device-width: 992px) {
   .form {
     width: 60%;
   }
 }
-@media only screen and (max-device-width: 768px) {
+@media only screen and (min-device-width: 321px) and (max-device-width: 768px) {
   .form {
     width: 75%;
   }
@@ -1007,6 +1007,7 @@ body {
   background-color: white;
   border-radius: 5px;
 }
+
 .form-outline .form-control ~ .form-notch div {
   border: none;
 }

@@ -100,7 +100,7 @@ body{
         padding-top: 25px;
         width: 60%;
         margin: 10px;
-        @media only screen and (max-device-width: 768px){
+        @media only screen and (min-device-width: 321px) and (max-device-width: 768px){
             width: 75%;
         }
         @media only screen and (max-device-width: 320px){
@@ -108,8 +108,7 @@ body{
         }
         &__item{
             border: none;
-            &--title{
-                // background: linear-gradient(to left, $black, darken($color14, 30%));   
+            &--title{ 
                 background-color: darken($color14, 30%);
                 font-size: 80%;
                 text-decoration: none;
@@ -117,7 +116,6 @@ body{
                 color: $color16;
                 &:not(.collapsed){
                     background-color: $color14;
-                    // background: linear-gradient(to left, darken($color14, 30%), darken($color16, 30%));
                     color: $color16;
                     box-shadow: none;
                 }
@@ -175,10 +173,10 @@ body{
     background-color: #d4f2ff;
     border-radius: 5px;
     width: 35%;
-    @media only screen and (max-device-width: 992px){
+    @media only screen  and (min-device-width: 769px) and (max-device-width: 992px){
         width: 60%;
     }
-    @media only screen and (max-device-width: 768px){
+    @media only screen  and (min-device-width: 321px) and (max-device-width: 768px){
         width: 75%;
     }
     @media only screen and (max-device-width: 320px){
@@ -187,9 +185,6 @@ body{
     .form-outline{
         background-color: white;
         border-radius: 5px;
-        .form-control{
-            
-        }
     }
 }
 .form-outline .form-control~.form-notch div{
