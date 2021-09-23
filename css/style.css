@@ -224,12 +224,12 @@ body {
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 469px) {
   .header-bottom-list__li--link {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 @media only screen and (max-device-width: 320px) {
   .header-bottom-list__li--link {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
@@ -350,9 +350,15 @@ body {
 }
 .main-index__top--title {
   font-size: 3rem;
-  font-family: 1.75rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
   color: deepskyblue;
   text-shadow: -2px 2px 3px black;
+}
+@media only screen and (max-device-width: 425px) {
+  .main-index__top--title {
+    font-size: 2.25rem;
+  }
 }
 
 .index-bottom__link {
